@@ -1,0 +1,13 @@
+1、将apps_config\default\config\wfsys-config.xml中如下代码注释掉：  
+
+<group name="ProcessInstDataTransfer">            
+
+     <configValue key="class">com.primeton.workflow.service.transfer.realtime.ProcessInstDataTransfer</configValue>            
+
+     <configValue key="startup">2300</configValue>
+
+</group>
+
+2、配置注释掉后，重启server
+
+
